@@ -10,4 +10,4 @@ set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
 set terminal png size 400,300 enhanced font "Helvetica,20"
 set terminal png size 800,500
 set output filename
-plot "output" using 1:2 with lines
+plot "output" using 1:2 smooth csplines

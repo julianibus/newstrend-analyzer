@@ -1,3 +1,9 @@
+# analyze.py
+# Core of the project. Script which scans the data folder and combines the count data of a particular keyword
+# into one final data saved as "output". 
+# Author:	Julian Wienand
+# Usage:	$ python analyze.py [keyword]
+
 
 import sys
 import os

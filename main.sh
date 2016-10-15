@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# main.sh
+# Script which periodically triggers the data mining program "dowload.sh".
+# into one final data saved as "output". 
+# Author:	Julian Wienand
+# Usage:	$ sh main.sh [Website]
+#			Example: sh main.sh "edition.cnn.com"
+
 echo "NEWSTREND ANALYZER"
 echo "by Julian Wienand <jwienand@aol.com>"
 echo "Website: \t http://$1/"
